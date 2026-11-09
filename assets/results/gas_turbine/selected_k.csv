@@ -1,0 +1,10 @@
+mean,rule,selected_k,selected_at_boundary
+arithmetic,dudoit_fridlyand,8,False
+arithmetic,max,9,False
+arithmetic,one_se,1,False
+geometric,dudoit_fridlyand,7,False
+geometric,max,8,False
+geometric,one_se,1,False
+harmonic,dudoit_fridlyand,7,False
+harmonic,max,8,False
+harmonic,one_se,1,False
