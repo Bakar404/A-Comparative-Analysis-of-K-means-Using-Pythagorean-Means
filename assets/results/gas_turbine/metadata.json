@@ -1,0 +1,86 @@
+{
+  "source": "https://archive.ics.uci.edu/static/public/551/gas+turbine+co+and+nox+emission+data+set.zip",
+  "doi": "10.24432/C5WC95",
+  "archive_sha256": "55fdb1acc25f05bd9c77aac285c424e9154ffb0dbf1bbadb56b69a1142231295",
+  "arithmetic": {
+    "optimal_k": 8,
+    "selected_k_by_rule": {
+      "dudoit_fridlyand": 8,
+      "max": 9,
+      "one_se": 1
+    },
+    "gap_empty_cluster_retries": [],
+    "fit_empty_cluster_retries": [],
+    "selected_at_boundary": false,
+    "occupied_clusters": 8,
+    "inertia_to_variant_centers": 27406.40673416183,
+    "fit_seconds": 2.6518045000266284,
+    "n_iter": 50,
+    "n_iter_total": 276,
+    "converged": true
+  },
+  "geometric": {
+    "optimal_k": 7,
+    "selected_k_by_rule": {
+      "dudoit_fridlyand": 7,
+      "max": 8,
+      "one_se": 1
+    },
+    "gap_empty_cluster_retries": [],
+    "fit_empty_cluster_retries": [],
+    "selected_at_boundary": false,
+    "occupied_clusters": 7,
+    "inertia_to_variant_centers": 31474.01696149535,
+    "fit_seconds": 1.4318145420402288,
+    "n_iter": 37,
+    "n_iter_total": 166,
+    "converged": true
+  },
+  "harmonic": {
+    "optimal_k": 7,
+    "selected_k_by_rule": {
+      "dudoit_fridlyand": 7,
+      "max": 8,
+      "one_se": 1
+    },
+    "gap_empty_cluster_retries": [],
+    "fit_empty_cluster_retries": [],
+    "selected_at_boundary": false,
+    "occupied_clusters": 7,
+    "inertia_to_variant_centers": 32177.391598032453,
+    "fit_seconds": 1.736423666938208,
+    "n_iter": 45,
+    "n_iter_total": 208,
+    "converged": true
+  },
+  "label": "reproduction, not an exact replication",
+  "dataset": "gas-turbine",
+  "shape": [
+    36733,
+    11
+  ],
+  "seed": 2023,
+  "gap_samples": 2000,
+  "n_references": 10,
+  "max_k": 20,
+  "gap_n_init": 10,
+  "fit_n_init": 5,
+  "max_iter": 300,
+  "init": "k-means++",
+  "max_empty_cluster_retries": 5,
+  "gap_standard_error_ddof": 0,
+  "gap_selection": "dudoit_fridlyand",
+  "tol": 0.0001,
+  "preprocessing": "StandardScaler, full-SVD PCA to 2 components",
+  "positive_shift": [
+    9.61959635585795,
+    8.331604390314407
+  ],
+  "explained_variance_ratio": [
+    0.4799897238818883,
+    0.19902934032095834
+  ],
+  "python": "3.14.4",
+  "numpy": "2.5.4",
+  "scikit_learn": "1.9.1"
+}
